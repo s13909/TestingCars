@@ -1,6 +1,6 @@
 
 before_install:
-  - cd my-app
+  - cd lab01
 
 language: java
 rvm:
