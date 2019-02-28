@@ -1,4 +1,0 @@
-language: java
-rvm:
- - maven
- - 4.0.0
