@@ -44,7 +44,10 @@ public class CarInMemoryDao implements Dao<Car> {
 
 
     @Override
-    public void delete(Car o) {
+    public void delete(Car o) throws IllegalArgumentException{
+        if (!cars.containsKey(o.getId()))
+        throw new IllegalArgumentException("Key does not exist");
+        cars.remove(o.getId());
     }
 
 }

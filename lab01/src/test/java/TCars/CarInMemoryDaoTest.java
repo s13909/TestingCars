@@ -93,7 +93,20 @@ public class CarInMemoryDaoTest
         //assertThat(c.get().getModel(), is("Tempra"));
         //assertThat(c.get().getColor(), is("Black"));
     }
+    @Test(expected = java.util.NoSuchElementException.class)
+    public void deleteExistingCar(){
 
+        Car car1 = new Car();
+        car1.setId(1L);
+        dao.delete(car1);
+
+        Optional<Car> c = dao.get(1L);
+
+        assertThat(c.get().getModel(), is("Seicento"));
+        //assertThat(c.get().getColor(), is("Black"));
+
+
+    }
 
     /*
     @Test

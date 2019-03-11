@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="001e6655-d343-4c5e-9aa6-937022cc6a53" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TestingCarsv2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarInMemoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/main/java/com/lab01/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/domain/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/main/java/com/lab01/app/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/test/java/com/lab01/app/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/test/java/TCars/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/test/java/com/lab01/app/CarTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/classes/com/lab01/app/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/classes/com/lab01/app/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/lab01-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/target/lab01-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/surefire-reports/TEST-com.lab01.app.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/surefire-reports/TEST-com.lab01.app.CarTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/surefire-reports/com.lab01.app.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/surefire-reports/com.lab01.app.CarTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/test-classes/com/lab01/app/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/target/test-classes/com/lab01/app/CarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarInMemoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarInMemoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/my-app/target/" />
     <ignored path="$PROJECT_DIR$/lab01/target/" />
@@ -76,8 +52,8 @@
       <file leaf-file-name="CarInMemoryDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarInMemoryDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+            <state relative-caret-position="252">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +85,8 @@
       <file leaf-file-name="CarInMemoryDaoTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="255">
+              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1056#1057#0" expanded="true" />
@@ -288,7 +264,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -310,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarInMemoryDaoTest.updateExistingCar">
+  <component name="RunManager" selected="JUnit.CarInMemoryDaoTest.deleteExistingCar">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -360,7 +336,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CarInMemoryDaoTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarInMemoryDaoTest.deleteExistingCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab01" />
       <extension name="coverage">
         <pattern>
@@ -372,7 +348,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="TCars" />
       <option name="MAIN_CLASS_NAME" value="TCars.dao.CarInMemoryDaoTest" />
-      <option name="METHOD_NAME" value="getById" />
+      <option name="METHOD_NAME" value="deleteExistingCar" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -469,18 +445,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CarInMemoryDaoTest.createDaoObjectTest" />
-      <item itemvalue="JUnit.CarInMemoryDaoTest.getById" />
       <item itemvalue="JUnit.CarInMemoryDaoTest.getCarThatExistsTest" />
       <item itemvalue="JUnit.CarInMemoryDaoTest.createCarTest" />
       <item itemvalue="JUnit.CarInMemoryDaoTest.updateExistingCar" />
+      <item itemvalue="JUnit.CarInMemoryDaoTest.deleteExistingCar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarInMemoryDaoTest.deleteExistingCar" />
         <item itemvalue="JUnit.CarInMemoryDaoTest.updateExistingCar" />
         <item itemvalue="JUnit.CarInMemoryDaoTest.createDaoObjectTest" />
         <item itemvalue="JUnit.CarInMemoryDaoTest.createCarTest" />
         <item itemvalue="JUnit.CarInMemoryDaoTest.getCarThatExistsTest" />
-        <item itemvalue="JUnit.CarInMemoryDaoTest.getById" />
       </list>
     </recent_temporary>
   </component>
@@ -498,39 +474,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CarInMemoryDaoTest_createDaoObjectTest - 2019.03.11 at 12h 40m 56s.xml">
-      <configuration name="CarInMemoryDaoTest.createDaoObjectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 12h 49m 29s.xml">
-      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 00m 26s.xml">
-      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 02m 38s.xml">
-      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 02m 56s.xml">
-      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 07m 48s.xml">
-      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 08m 42s.xml">
-      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 09m 47s.xml">
-      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 13m 24s.xml">
       <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 42m 54s.xml">
       <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 22h 01m 35s.xml">
+      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_deleteExistingCar - 2019.03.11 at 22h 07m 38s.xml">
+      <configuration name="CarInMemoryDaoTest.deleteExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_deleteExistingCar - 2019.03.11 at 22h 09m 40s.xml">
+      <configuration name="CarInMemoryDaoTest.deleteExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_deleteExistingCar - 2019.03.11 at 22h 10m 51s.xml">
+      <configuration name="CarInMemoryDaoTest.deleteExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_deleteExistingCar - 2019.03.11 at 22h 14m 23s.xml">
+      <configuration name="CarInMemoryDaoTest.deleteExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_deleteExistingCar - 2019.03.11 at 22h 14m 53s.xml">
+      <configuration name="CarInMemoryDaoTest.deleteExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_deleteExistingCar - 2019.03.11 at 22h 15m 09s.xml">
+      <configuration name="CarInMemoryDaoTest.deleteExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_deleteExistingCar - 2019.03.11 at 22h 15m 22s.xml">
+      <configuration name="CarInMemoryDaoTest.deleteExistingCar" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -541,8 +518,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32897604" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.2712766" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31023103" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.21132898" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24422443" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.21122113" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23784195" />
@@ -601,6 +578,10 @@
         <watch expression="dao" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.travis.yml">
@@ -878,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -918,6 +892,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -928,27 +909,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarInMemoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="255">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1056#1057#0" expanded="true" />
