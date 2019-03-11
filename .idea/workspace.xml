@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="001e6655-d343-4c5e-9aa6-937022cc6a53" name="Default" comment="" />
+    <list default="true" id="001e6655-d343-4c5e-9aa6-937022cc6a53" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TestingCarsv2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarInMemoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/main/java/com/lab01/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/domain/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/main/java/com/lab01/app/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/test/java/com/lab01/app/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/test/java/TCars/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/test/java/com/lab01/app/CarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/classes/com/lab01/app/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/classes/com/lab01/app/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/lab01-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/target/lab01-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/surefire-reports/TEST-com.lab01.app.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/surefire-reports/TEST-com.lab01.app.CarTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/surefire-reports/com.lab01.app.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/surefire-reports/com.lab01.app.CarTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/test-classes/com/lab01/app/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/target/test-classes/com/lab01/app/CarTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/my-app/target/" />
+    <ignored path="$PROJECT_DIR$/lab01/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,36 +40,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-app/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/main/java/com/lab01/app/Car.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/test/java/com/lab01/app/CarTest.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="CarInMemoryDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarInMemoryDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/Dao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarInMemoryDaoTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1176#1177#0" expanded="true" />
+                <element signature="method#addCar#0;class#CarTest#0" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +143,19 @@
         <option value="$PROJECT_DIR$/my-app/src/test/java/com/mycompany/app/CarTest.java" />
         <option value="$PROJECT_DIR$/my-app/pom.xml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/Car.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/repository/CarsRepositoryFactory.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/repository/CarsRepository.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/repository/CarRepositoryFactory.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/app/Car.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/repository/CarRepository.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepository.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/dao.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/Dao.java" />
+        <option value="$PROJECT_DIR$/lab01/src/test/java/TCars/CarTest.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarInMemoryDao.java" />
+        <option value="$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java" />
       </list>
     </option>
   </component>
@@ -71,11 +175,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="212" />
-    <option name="width" value="1082" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1376" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -83,24 +187,103 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TCars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TCars" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TCars" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestingCarsv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestingCarsv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TCars" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab01/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -127,9 +310,124 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.lab01-1.0-SNAPSHOT.jar">
+  <component name="RunManager" selected="JUnit.CarInMemoryDaoTest.updateExistingCar">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CarInMemoryDaoTest.createCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCars.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="TCars" />
+      <option name="MAIN_CLASS_NAME" value="TCars.dao.CarInMemoryDaoTest" />
+      <option name="METHOD_NAME" value="createCarTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CarInMemoryDaoTest.createDaoObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCars.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="TCars" />
+      <option name="MAIN_CLASS_NAME" value="TCars.dao.CarInMemoryDaoTest" />
+      <option name="METHOD_NAME" value="createDaoObjectTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CarInMemoryDaoTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCars.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="TCars" />
+      <option name="MAIN_CLASS_NAME" value="TCars.dao.CarInMemoryDaoTest" />
+      <option name="METHOD_NAME" value="getById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CarInMemoryDaoTest.getCarThatExistsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCars.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="TCars" />
+      <option name="MAIN_CLASS_NAME" value="TCars.dao.CarInMemoryDaoTest" />
+      <option name="METHOD_NAME" value="getCarThatExistsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CarInMemoryDaoTest.updateExistingCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCars.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="TCars" />
+      <option name="MAIN_CLASS_NAME" value="TCars.dao.CarInMemoryDaoTest" />
+      <option name="METHOD_NAME" value="updateExistingCar" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -146,12 +444,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="lab01-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/my-app/target/lab01-1.0-SNAPSHOT.jar" />
-    </configuration>
-    <configuration name="my-app-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/my-app/target/my-app-1.0-SNAPSHOT.jar" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -176,13 +468,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JAR Application.my-app-1.0-SNAPSHOT.jar" />
-      <item itemvalue="JAR Application.lab01-1.0-SNAPSHOT.jar" />
+      <item itemvalue="JUnit.CarInMemoryDaoTest.createDaoObjectTest" />
+      <item itemvalue="JUnit.CarInMemoryDaoTest.getById" />
+      <item itemvalue="JUnit.CarInMemoryDaoTest.getCarThatExistsTest" />
+      <item itemvalue="JUnit.CarInMemoryDaoTest.createCarTest" />
+      <item itemvalue="JUnit.CarInMemoryDaoTest.updateExistingCar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.lab01-1.0-SNAPSHOT.jar" />
-        <item itemvalue="JAR Application.my-app-1.0-SNAPSHOT.jar" />
+        <item itemvalue="JUnit.CarInMemoryDaoTest.updateExistingCar" />
+        <item itemvalue="JUnit.CarInMemoryDaoTest.createDaoObjectTest" />
+        <item itemvalue="JUnit.CarInMemoryDaoTest.createCarTest" />
+        <item itemvalue="JUnit.CarInMemoryDaoTest.getCarThatExistsTest" />
+        <item itemvalue="JUnit.CarInMemoryDaoTest.getById" />
       </list>
     </recent_temporary>
   </component>
@@ -199,58 +497,341 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CarInMemoryDaoTest_createDaoObjectTest - 2019.03.11 at 12h 40m 56s.xml">
+      <configuration name="CarInMemoryDaoTest.createDaoObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 12h 49m 29s.xml">
+      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 00m 26s.xml">
+      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 02m 38s.xml">
+      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 02m 56s.xml">
+      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 07m 48s.xml">
+      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 08m 42s.xml">
+      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 09m 47s.xml">
+      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 13m 24s.xml">
+      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarInMemoryDaoTest_updateExistingCar - 2019.03.11 at 13h 42m 54s.xml">
+      <configuration name="CarInMemoryDaoTest.updateExistingCar" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.32897604" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.32995737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49946696" visible="true" weight="0.32897604" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" weight="0.32838285" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32897604" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.2712766" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31023103" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.21132898" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23784195" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33481154" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2892562" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.21132898" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.37444445" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="dao" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-app/src/main/java/com/lab01/app/Car.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/test/java/com/lab01/app/CarTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/README.md">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepositoryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="method#addCar#0;class#CarTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepositoryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="method#addCar#0;class#CarTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepositoryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="method#addCar#0;class#CarTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepositoryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="method#addCar#0;class#CarTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -261,10 +842,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/pom.xml">
+    <entry file="file://$PROJECT_DIR$/my-app/src/main/java/com/lab01/app/Car.java" />
+    <entry file="file://$PROJECT_DIR$/my-app/src/test/java/com/lab01/app/CarTest.java" />
+    <entry file="file://$PROJECT_DIR$/my-app/README.md" />
+    <entry file="file://$PROJECT_DIR$/my-app/.travis.yml" />
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarRepositoryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/ExactComparisonCriteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/ComparisonCriteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarInMemoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/CarInMemoryDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="method#addCar#0;class#CarTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>

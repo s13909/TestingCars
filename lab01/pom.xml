@@ -55,7 +55,7 @@
             <archive>
               <index>true</index>
               <manifest>
-                <mainClass>com.lab01.app.App</mainClass>
+                <mainClass>TCars.domain.App</mainClass>
               </manifest>
             </archive>
           </configuration>

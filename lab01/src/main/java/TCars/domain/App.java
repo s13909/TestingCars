@@ -1,4 +1,4 @@
-package com.lab01.app;
+package TCars.domain;
 
 /**
  * Hello world!
