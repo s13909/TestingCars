@@ -12,11 +12,8 @@ import org.junit.matchers.JUnitMatchers;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Optional;
-
+import java.sql.Array;
+import java.util.*;
 
 
 @RunWith(BlockJUnit4ClassRunner.class)
@@ -139,7 +136,9 @@ public class CarInMemoryDaoTest
 
     @Test
     public void getAll(){
+
         assertNotNull(dao.getAll());
+
     }
      /*
     @Test
