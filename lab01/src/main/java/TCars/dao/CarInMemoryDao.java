@@ -30,6 +30,10 @@ public class CarInMemoryDao implements Dao<Car> {
     @Override
     public void save(Car o) {
 
+        if (cars.containsKey(o.getId()))
+            throw new IllegalArgumentException("Key already exists");
+        cars.put(o.getId(), o);
+
     }
 
 

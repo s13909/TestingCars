@@ -72,6 +72,35 @@ public class CarInMemoryDaoTest
     }
 
     @Test
+    public void saveNewCar()
+    {
+        Car car3 = new Car();
+        car3.setId(3L);
+        car3.setMake("Ferrari");
+        car3.setModel("488 Pista");
+        car3.setColor("White");
+
+        dao.save(car3);
+        Optional<Car> c = dao.get(3L);
+        assertThat(c.get().getModel(), is("488 Pista"));
+        assertThat(c.get().getColor(), is("White"));
+
+    }
+    @Test(expected = IllegalArgumentException.class)
+    public void saveNewCarOnAlreadyUsedID()
+    {
+        Car car3 = new Car();
+        car3.setId(1L);
+        car3.setMake("Ferrari");
+        car3.setModel("488 Pista");
+        car3.setColor("White");
+
+        dao.save(car3);
+
+
+    }
+
+    @Test
     public void updateExistingCar(){
         Car car1 = new Car();
         car1.setId(1);
@@ -79,7 +108,6 @@ public class CarInMemoryDaoTest
         car1.setModel("Tempra");
 
         Collection<Car> listExpected = dao.cars.values();
-        System.out.println(listExpected);
         for(Car c:listExpected) if (c.getId()==1) c.setModel("Tempra");
 
 
@@ -108,12 +136,12 @@ public class CarInMemoryDaoTest
 
     }
 
-    /*
+
     @Test
     public void getAll(){
-        assertNotNull(CarRepository.getAll());
+        assertNotNull(dao.getAll());
     }
-
+     /*
     @Test
     public void addCar() {
         Car car = new Car();
