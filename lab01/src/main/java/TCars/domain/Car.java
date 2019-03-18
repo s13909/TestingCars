@@ -60,8 +60,7 @@ public class Car
 
     @Override
     public String toString() {
-        return "[" + id+ ", "
-                + make + ", " + model + ", " + color + "]";
+        return "[" + id+ ", " + make + ", " + model + ", " + color + "]";
     }
 
 }

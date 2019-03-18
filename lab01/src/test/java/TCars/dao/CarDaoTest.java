@@ -44,7 +44,7 @@ public class CarDaoTest
 
         Random rand = new Random();
         PreparedStatement addCarStatement = connection.prepareStatement(
-                "INERT INTO Car (make, model, color) VALUES (?, ?, ?)",
+                "INSERT INTO Car (make, model, color) VALUES (?, ?, ?)",
                 Statement.RETURN_GENERATED_KEYS);
 
         expectedDbState = new LinkedList<Car>();
@@ -87,12 +87,12 @@ public class CarDaoTest
         car.setModel("Seicento");
         car.setColor("Black");
 
-        assertEquals(1, personManager.addPerson(person));
+        assertEquals(1, carManager.addCar(car));
 
-        expectedDbState.add(person);
-        assertThat(personManager.getAllPersons(), equalTo(expectedDbState));
+        expectedDbState.add(car);
+        assertEquals(carManager.getAllCars(), expectedDbState );
     }
-
+   /*
     @Test
     public void createDaoObjectTest() {
         assertNotNull(dao);
@@ -189,7 +189,7 @@ public class CarDaoTest
         assertNotNull(dao.getAll());
 
     }
-     /*
+
     @Test
     public void addCar() {
         Car car = new Car();
