@@ -25,7 +25,9 @@ public class CarDaoTest
     private static final Logger LOGGER = Logger.getLogger(CarDaoTest.class.getCanonicalName());
 
     @Rule
-    public Timeout globalTimeout = new Timeout(1000);
+
+    public Timeout globalTimeout = new Timeout(10000);
+
 
     public static String url = "jdbc:hsqldb:hsql://localhost/workdb";
 
@@ -92,7 +94,55 @@ public class CarDaoTest
         expectedDbState.add(car);
         assertEquals(carManager.getAllCars(), expectedDbState );
     }
+
+
+    @Test
+    public void checkGetting() throws Exception {
+        Car car = expectedDbState.get(7);
+        assertEquals(car, carManager.getCar(car.getId()));
+    }
+
+    @Test
+    public void checkGettingAll() throws Exception {
+
+        assertEquals(carManager.getAllCars(), expectedDbState );
+    }
+
+    @Test(expected = SQLException.class)
+    public void checkDeleting() throws SQLException {
+        Car c = expectedDbState.get(4);
+        System.out.println(c);
+        expectedDbState.remove(c);
+        assertEquals(1, carManager.deleteCar(c));
+        assertThat(carManager.getAllCars(), equalTo(expectedDbState));
+        assertNull(carManager.getCar(c.getId()));
+    }
+
+    @Test()
+    public void checkUpdatingSuccess() throws SQLException {
+        Car c = expectedDbState.get(3);
+        c.setMake("Porsche");
+        expectedDbState.set(3, c);
+        assertEquals(1, carManager.updateCar(c));
+        assertThat(carManager.getAllCars(), equalTo(expectedDbState));
+    }
+
+    @Test(expected = SQLException.class)
+    public void checkUpdatingFailure() throws SQLException {
+        Car c = new Car("Ferrari","488","Red");
+        assertEquals(1, carManager.updateCar(c));
+    }
+
+
+
+
+
+
+
+
+
    /*
+
     @Test
     public void createDaoObjectTest() {
         assertNotNull(dao);

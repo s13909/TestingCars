@@ -59,6 +59,29 @@ public class CarDaoJdbcImpl implements CarDao {
         return count;
     }
 
+
+    @Override
+    public Car getCar(long id) throws SQLException {
+        try {
+            getCarStmt.setLong(1, id);
+            ResultSet rs = getCarStmt.executeQuery();
+
+            if (rs.next()) {
+                Car c = new Car();
+                c.setId(rs.getInt("id"));
+                c.setMake(rs.getString("make"));
+                c.setModel(rs.getString("model"));
+                c.setColor(rs.getString("color"));
+                return c;
+            }
+
+        } catch (SQLException e) {
+            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+        }
+        throw new SQLException("Person with id " + id + " does not exist");
+    }
+
+
     public List<Car> getAllCars() {
         List<Car> cars = new LinkedList<>();
         try {
@@ -77,7 +100,44 @@ public class CarDaoJdbcImpl implements CarDao {
             throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
         }
         return cars;
+
     }
+
+
+    @Override
+    public int deleteCar(Car car) {
+        try {
+            deleteCarStmt.setLong(1, car.getId());
+            return deleteCarStmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+        }
+    }
+
+    @Override
+    public int updateCar(Car car) throws SQLException {
+        int count = 0;
+        try {
+            updateCarStmt.setString(1, car.getMake());
+            updateCarStmt.setString(2, car.getModel());
+            updateCarStmt.setString(3, car.getColor());
+
+            if (car.getId() != null) {
+                updateCarStmt.setLong(4, car.getId());
+            } else {
+                updateCarStmt.setLong(4, -1);
+            }
+            count = updateCarStmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+        }
+        if (count <= 0)
+            throw new SQLException("Car not found, cannot update");
+        return count;
+    }
+
+
+
 
 
 }
