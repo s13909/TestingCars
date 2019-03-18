@@ -10,6 +10,7 @@ import java.util.List;
 public interface CarDao  {
 
     public Connection getConnection();
+  
     public void setConnection(Connection connection) throws SQLException;
     public List<Car> getAllCars();
     public int addCar(Car car);

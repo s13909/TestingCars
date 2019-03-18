@@ -25,7 +25,9 @@ public class CarDaoTest
     private static final Logger LOGGER = Logger.getLogger(CarDaoTest.class.getCanonicalName());
 
     @Rule
+
     public Timeout globalTimeout = new Timeout(10000);
+
 
     public static String url = "jdbc:hsqldb:hsql://localhost/workdb";
 
@@ -92,6 +94,7 @@ public class CarDaoTest
         expectedDbState.add(car);
         assertEquals(carManager.getAllCars(), expectedDbState );
     }
+
 
     @Test
     public void checkGetting() throws Exception {

@@ -1,3 +1,7 @@
+
+before_install:
+  - cd lab01
+
 language: java
 rvm:
  - maven

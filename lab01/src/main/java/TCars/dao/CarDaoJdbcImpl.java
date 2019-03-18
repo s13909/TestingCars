@@ -59,6 +59,7 @@ public class CarDaoJdbcImpl implements CarDao {
         return count;
     }
 
+
     @Override
     public Car getCar(long id) throws SQLException {
         try {
@@ -79,6 +80,7 @@ public class CarDaoJdbcImpl implements CarDao {
         }
         throw new SQLException("Person with id " + id + " does not exist");
     }
+
 
     public List<Car> getAllCars() {
         List<Car> cars = new LinkedList<>();
@@ -133,7 +135,6 @@ public class CarDaoJdbcImpl implements CarDao {
             throw new SQLException("Car not found, cannot update");
         return count;
     }
-
 
 
 

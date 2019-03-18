@@ -16,6 +16,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+      <hsqldb.version>2.4.0</hsqldb.version>
+
   </properties>
 
   <dependencies>
@@ -24,6 +26,11 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hsqldb</groupId>
+      <artifactId>hsqldb</artifactId>
+      <version>${hsqldb.version}</version>
     </dependency>
   </dependencies>
 
@@ -55,7 +62,7 @@
             <archive>
               <index>true</index>
               <manifest>
-                <mainClass>com.lab01.app.App</mainClass>
+                <mainClass>TCars.domain.App</mainClass>
               </manifest>
             </archive>
           </configuration>
