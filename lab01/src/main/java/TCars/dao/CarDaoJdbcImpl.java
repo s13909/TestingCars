@@ -78,7 +78,7 @@ public class CarDaoJdbcImpl implements CarDao {
         } catch (SQLException e) {
             throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
         }
-        throw new SQLException("Person with id " + id + " does not exist");
+        throw new SQLException("Car with id " + id + " doesn't exist");
     }
 
 

@@ -54,7 +54,7 @@ public class Car
         Car other = (Car) o;
         boolean ret = other.getMake().equals(this.getMake()) &&
                 ((other.getId() == this.getId()) || (other.getId().longValue() == this.getId().longValue())) &&
-                ((other.getModel() == this.getModel()));
+                ((other.getModel().equals(this.getModel())));
         return ret;
     }
 

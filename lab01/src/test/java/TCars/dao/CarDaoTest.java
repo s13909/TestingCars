@@ -71,15 +71,7 @@ public class CarDaoTest
         carManager = new CarDaoJdbcImpl(connection);
     }
 
-    @After
-    public void cleanup() throws SQLException{
-        Connection connection = DriverManager.getConnection(url);
-        try {
-            connection.prepareStatement("DELETE FROM Car").executeUpdate();
-        } catch (Exception e) {
-            LOGGER.log(Level.FINEST,"Probably the database was not yet initialized");
-        }
-    }
+
 
 
     @Test
@@ -91,8 +83,9 @@ public class CarDaoTest
 
         assertEquals(1, carManager.addCar(car));
 
+
         expectedDbState.add(car);
-        assertEquals(carManager.getAllCars(), expectedDbState );
+        assertThat(carManager.getAllCars(), equalTo(expectedDbState) );
     }
 
 
@@ -111,7 +104,7 @@ public class CarDaoTest
     @Test(expected = SQLException.class)
     public void checkDeleting() throws SQLException {
         Car c = expectedDbState.get(4);
-        System.out.println(c);
+        //System.out.println(c);
         expectedDbState.remove(c);
         assertEquals(1, carManager.deleteCar(c));
         assertThat(carManager.getAllCars(), equalTo(expectedDbState));
@@ -131,6 +124,17 @@ public class CarDaoTest
     public void checkUpdatingFailure() throws SQLException {
         Car c = new Car("Ferrari","488","Red");
         assertEquals(1, carManager.updateCar(c));
+    }
+
+
+    @After
+    public void cleanup() throws SQLException{
+        Connection connection = DriverManager.getConnection(url);
+        try {
+            connection.prepareStatement("DELETE FROM Car").executeUpdate();
+        } catch (Exception e) {
+            LOGGER.log(Level.FINEST,"Probably the database was not yet initialized");
+        }
     }
 
 
