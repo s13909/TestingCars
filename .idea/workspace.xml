@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="186921bf-1a63-4b34-8688-abfd54512dbb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/lab01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/lab01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDaoJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDaoJdbcImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab01/src/test/java/TCars/dao/CarDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/test/java/TCars/dao/CarDaoTest.java" afterDir="false" />
     </list>
@@ -29,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarDaoTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CarDaoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/dao/CarDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
+            <state relative-caret-position="325">
+              <caret line="273" selection-start-line="273" selection-end-line="273" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,15 +38,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FrameworkMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="442">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#357#358#0" expanded="true" />
                 <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
                 <element signature="e#495#496#0" expanded="true" />
               </folding>
             </state>
@@ -65,23 +75,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarDaoJdbcImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CarDaoJdbcImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDaoJdbcImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="229">
+              <caret line="107" column="71" selection-start-line="107" selection-start-column="71" selection-end-line="107" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultSet.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/ResultSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="601" column="13" selection-start-line="601" selection-start-column="13" selection-end-line="601" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -97,8 +98,8 @@
         <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java" />
         <option value="$PROJECT_DIR$/lab01/pom.xml" />
         <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDao.java" />
-        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDaoJdbcImpl.java" />
         <option value="$PROJECT_DIR$/lab01/src/test/java/TCars/dao/CarDaoTest.java" />
+        <option value="$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDaoJdbcImpl.java" />
       </list>
     </option>
   </component>
@@ -118,9 +119,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1070" />
-    <option name="width" value="1490" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1070" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -249,6 +249,29 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="CarDaoTest.checkAddingInOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCars.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="TCars.dao" />
+      <option name="MAIN_CLASS_NAME" value="TCars.dao.CarDaoTest" />
+      <option name="METHOD_NAME" value="checkAddingInOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="CarDaoTest.checkDeleting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab01" />
       <extension name="coverage">
@@ -262,29 +285,6 @@
       <option name="PACKAGE_NAME" value="TCars.dao" />
       <option name="MAIN_CLASS_NAME" value="TCars.dao.CarDaoTest" />
       <option name="METHOD_NAME" value="checkDeleting" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CarDaoTest.checkGetting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCars.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="TCars.dao" />
-      <option name="MAIN_CLASS_NAME" value="TCars.dao.CarDaoTest" />
-      <option name="METHOD_NAME" value="checkGetting" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -318,7 +318,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CarDaoTest.checkGettingFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarDaoTest.checkUpdatingFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab01" />
       <extension name="coverage">
         <pattern>
@@ -330,7 +330,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="TCars.dao" />
       <option name="MAIN_CLASS_NAME" value="TCars.dao.CarDaoTest" />
-      <option name="METHOD_NAME" value="checkGettingFailure" />
+      <option name="METHOD_NAME" value="checkUpdatingFailure" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -405,17 +405,17 @@
     <list>
       <item itemvalue="JUnit.CarDaoTest.checkDeleting" />
       <item itemvalue="JUnit.CarDaoTest.checkUpdatingSuccess" />
+      <item itemvalue="JUnit.CarDaoTest.checkAddingInOrder" />
       <item itemvalue="JUnit.CarDaoTest.checkGettingAll" />
-      <item itemvalue="JUnit.CarDaoTest.checkGetting" />
-      <item itemvalue="JUnit.CarDaoTest.checkGettingFailure" />
+      <item itemvalue="JUnit.CarDaoTest.checkUpdatingFailure" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CarDaoTest.checkUpdatingSuccess" />
-        <item itemvalue="JUnit.CarDaoTest.checkDeleting" />
-        <item itemvalue="JUnit.CarDaoTest.checkGettingFailure" />
-        <item itemvalue="JUnit.CarDaoTest.checkGetting" />
+        <item itemvalue="JUnit.CarDaoTest.checkUpdatingFailure" />
         <item itemvalue="JUnit.CarDaoTest.checkGettingAll" />
+        <item itemvalue="JUnit.CarDaoTest.checkDeleting" />
+        <item itemvalue="JUnit.CarDaoTest.checkAddingInOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -433,62 +433,62 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CarDaoTest_checkGetting - 2019.03.26 at 10h 25m 43s.xml">
-      <configuration name="CarDaoTest.checkGetting" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarDaoTest_checkGetting - 2019.03.26 at 10h 25m 51s.xml">
-      <configuration name="CarDaoTest.checkGetting" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarDaoTest_checkGetting - 2019.03.26 at 10h 27m 07s.xml">
-      <configuration name="CarDaoTest.checkGetting" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarDaoTest_checkGetting - 2019.03.26 at 10h 27m 11s.xml">
-      <configuration name="CarDaoTest.checkGetting" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarDaoTest_checkGetting - 2019.03.26 at 10h 38m 03s.xml">
-      <configuration name="CarDaoTest.checkGetting" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarDaoTest_checkGetting - 2019.03.26 at 10h 38m 27s.xml">
-      <configuration name="CarDaoTest.checkGetting" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarDaoTest_checkGettingFailure - 2019.03.26 at 10h 40m 24s.xml">
-      <configuration name="CarDaoTest.checkGettingFailure" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarDaoTest_checkGettingFailure - 2019.03.26 at 10h 41m 56s.xml">
-      <configuration name="CarDaoTest.checkGettingFailure" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarDaoTest_checkDeleting - 2019.03.26 at 10h 45m 18s.xml">
-      <configuration name="CarDaoTest.checkDeleting" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarDaoTest_checkUpdatingSuccess - 2019.03.26 at 10h 45m 53s.xml">
+    <history-entry file="CarDaoTest_checkUpdatingSuccess - 2019.03.26 at 22h 57m 05s.xml">
       <configuration name="CarDaoTest.checkUpdatingSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarDaoTest_checkUpdatingFailure - 2019.03.26 at 22h 59m 33s.xml">
+      <configuration name="CarDaoTest.checkUpdatingFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarDaoTest_checkUpdatingFailure - 2019.03.26 at 22h 59m 51s.xml">
+      <configuration name="CarDaoTest.checkUpdatingFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarDaoTest_checkUpdatingFailure - 2019.03.26 at 23h 02m 45s.xml">
+      <configuration name="CarDaoTest.checkUpdatingFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarDaoTest_checkUpdatingFailure - 2019.03.26 at 23h 04m 12s.xml">
+      <configuration name="CarDaoTest.checkUpdatingFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarDaoTest_checkUpdatingFailure - 2019.03.26 at 23h 08m 10s.xml">
+      <configuration name="CarDaoTest.checkUpdatingFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarDaoTest_checkUpdatingFailure - 2019.03.26 at 23h 08m 27s.xml">
+      <configuration name="CarDaoTest.checkUpdatingFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarDaoTest_checkUpdatingFailure - 2019.03.26 at 23h 08m 31s.xml">
+      <configuration name="CarDaoTest.checkUpdatingFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarDaoTest_checkUpdatingFailure - 2019.03.26 at 23h 09m 09s.xml">
+      <configuration name="CarDaoTest.checkUpdatingFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarDaoTest_checkUpdatingFailure - 2019.03.26 at 23h 09m 35s.xml">
+      <configuration name="CarDaoTest.checkUpdatingFailure" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1070" y="0" width="1490" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32815966" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3278867" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.14195804" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29157427" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.080683626" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2908497" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3224401" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16503496" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09379968" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991131" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39869282" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -505,12 +505,36 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDaoJdbcImpl.java</url>
-          <line>50</line>
+          <line>88</line>
           <properties />
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDaoJdbcImpl.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab01/src/test/java/TCars/dao/CarDaoTest.java</url>
+          <line>208</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDaoJdbcImpl.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab01/src/test/java/TCars/dao/CarDaoTest.java</url>
+          <line>271</line>
+          <properties />
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="55" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -535,7 +559,6 @@
           <folding>
             <element signature="e#357#358#0" expanded="true" />
             <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
             <element signature="e#495#496#0" expanded="true" />
           </folding>
         </state>
@@ -689,33 +712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar!/org/mockito/internal/debugging/LocationImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#589#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="180" column="9" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,17 +730,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar!/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="601" column="13" selection-start-line="601" selection-start-column="13" selection-end-line="601" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/domain/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -751,6 +773,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar!/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar!/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar!/org/mockito/internal/debugging/LocationImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/DatabaseTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -758,20 +813,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDaoJdbcImpl.java">
+    <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/dao/CarDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="325">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab01/src/test/java/TCars/dao/CarDaoTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
+        <state relative-caret-position="102">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab01/src/main/java/TCars/dao/CarDaoJdbcImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="107" column="71" selection-start-line="107" selection-start-column="71" selection-end-line="107" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

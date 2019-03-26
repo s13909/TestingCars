@@ -26,7 +26,7 @@ public class CarDaoJdbcImpl implements CarDao {
         deleteCarStmt = connection.prepareStatement("DELETE FROM Car where id = ?");
         getAllCarsStmt = connection.prepareStatement("SELECT id, make, model, color FROM Car ORDER BY id");
         getCarStmt = connection.prepareStatement("SELECT id, make, model, color FROM Car WHERE id = ?");
-        updateCarStmt = connection.prepareStatement("UPDATE Car SET make=?, model=?, color=? WHERE id = ?");
+        updateCarStmt = connection.prepareStatement("UPDATE Car SET (make,model,color) VALUES (?,?,?) WHERE id = ?",Statement.RETURN_GENERATED_KEYS);
     }
 
     @Override
@@ -104,14 +104,13 @@ public class CarDaoJdbcImpl implements CarDao {
             if (car.getId() != null) {
                 updateCarStmt.setLong(4, car.getId());
             } else {
-                updateCarStmt.setLong(4, -1);
+                count = 0;
+                throw new SQLException("Car not found, cannot update");
             }
             count = updateCarStmt.executeUpdate();
         } catch (SQLException e) {
             throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
         }
-        if (count <= 0)
-            throw new SQLException("Car not found, cannot update");
         return count;
     }
 

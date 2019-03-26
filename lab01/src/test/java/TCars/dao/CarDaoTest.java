@@ -96,7 +96,7 @@ public class CarDaoTest
         Mockito.when(connection.prepareStatement("SELECT id, make, model, color FROM Car ORDER BY id")).thenReturn(selectAllStatementMock);
         Mockito.when(connection.prepareStatement("INSERT INTO Car (make, model, color) VALUES (?, ?, ?)",Statement.RETURN_GENERATED_KEYS)).thenReturn(insertStatementMock);
         Mockito.when(connection.prepareStatement("DELETE FROM Car where id = ?")).thenReturn(deleteStatementMock);
-        Mockito.when(connection.prepareStatement("UPDATE Car SET make=?,model=?,color=? WHERE id = ?",Statement.RETURN_GENERATED_KEYS)).thenReturn(updateStatementMock);
+        Mockito.when(connection.prepareStatement("UPDATE Car SET (make,model,color) VALUES (?,?,?) WHERE id = ?",Statement.RETURN_GENERATED_KEYS)).thenReturn(updateStatementMock);
     }
 
 
@@ -159,9 +159,9 @@ public class CarDaoTest
         carManager.setConnection(connection);
 
         Car car = expectedDbState.get(7);
-        System.out.println("car " + car );
+       // System.out.println("car " + car );
         Car car2 = carManager.getCar(7);
-        System.out.println("car2 " + car2 );
+       // System.out.println("car2 " + car2 );
        // Car car2 = retrievedCars.get(7);
 
         assertThat(car, equalTo(car2));
@@ -184,7 +184,7 @@ public class CarDaoTest
 
 
         Car car2 = carManager.getCar(11);
-        System.out.println("car2 " + car2 );
+        //System.out.println("car2 " + car2 );
         // Car car2 = retrievedCars.get(7);
 
 
@@ -236,6 +236,16 @@ public class CarDaoTest
     @Test()
     public void checkUpdatingSuccess() throws SQLException {
 
+        AbstractResultSet mockedResultSet = mock(AbstractResultSet.class);
+        when(mockedResultSet.next()).thenCallRealMethod();
+        when(mockedResultSet.getLong("id")).thenCallRealMethod();
+        when(mockedResultSet.getString("make")).thenCallRealMethod();
+        when(mockedResultSet.getString("model")).thenCallRealMethod();
+        when(mockedResultSet.getString("color")).thenCallRealMethod();
+        when(selectAllStatementMock.executeQuery()).thenReturn(mockedResultSet);
+        when(updateStatementMock.executeUpdate()).thenReturn(1);
+
+
         CarDaoJdbcImpl carManager = new CarDaoJdbcImpl();
         carManager.setConnection(connection);
 
@@ -244,16 +254,23 @@ public class CarDaoTest
         c.setMake("Porsche");
         carManager.updateCar(c);
         expectedDbState.set(3, c);
-        assertEquals(1, carManager.updateCar(c));
-        assertThat(carManager.getAllCars(), equalTo(expectedDbState));
+        List<Car> retrievedCars = carManager.getAllCars();
+        assertThat(retrievedCars, equalTo(expectedDbState));
+
+        verify(updateStatementMock, times(1)).executeUpdate();
     }
 
-    @Test(expected = SQLException.class)
+    @Test(expected = java.lang.IllegalStateException.class)
     public void checkUpdatingFailure() throws SQLException {
+
+
+
         CarDaoJdbcImpl carManager = new CarDaoJdbcImpl();
+        carManager.setConnection(connection);
 
         Car c = new Car("Ferrari","488","Red");
-        assertEquals(1, carManager.updateCar(c));
+        carManager.updateCar(c);
+
     }
 
 
