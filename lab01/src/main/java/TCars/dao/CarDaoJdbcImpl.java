@@ -9,54 +9,33 @@ import java.util.List;
 
 public class CarDaoJdbcImpl implements CarDao {
 
-    private Connection connection;
+    public PreparedStatement addCarStmt;
+    public PreparedStatement getAllCarsStmt;
+    public PreparedStatement deleteCarStmt;
+    public PreparedStatement getCarStmt;
+    public PreparedStatement updateCarStmt;
 
-    private PreparedStatement addCarStmt;
-    private PreparedStatement getAllCarsStmt;
-    private PreparedStatement deleteCarStmt;
-    private PreparedStatement getCarStmt;
-    private PreparedStatement updateCarStmt;
-
-    public CarDaoJdbcImpl(Connection connection) throws SQLException {
-        this.connection = connection;
-        setConnection(connection);
-    }
-
-    public CarDaoJdbcImpl() throws SQLException {
-    }
+    Connection connection;
+    @Override
+    public Connection getConnection() { return connection; }
 
     @Override
-    public Connection getConnection() {
-        return connection;
-    }
-
     public void setConnection(Connection connection) throws SQLException {
         this.connection = connection;
-        addCarStmt = connection.prepareStatement(
-                "INSERT INTO Car (make, model, color) VALUES (?, ?, ?)",
-                Statement.RETURN_GENERATED_KEYS);
+        addCarStmt = connection.prepareStatement("INSERT INTO Car (make, model, color) VALUES (?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
         deleteCarStmt = connection.prepareStatement("DELETE FROM Car where id = ?");
         getAllCarsStmt = connection.prepareStatement("SELECT id, make, model, color FROM Car ORDER BY id");
         getCarStmt = connection.prepareStatement("SELECT id, make, model, color FROM Car WHERE id = ?");
-        updateCarStmt = connection.prepareStatement("UPDATE Car SET make=?,model=?,color=? WHERE id = ?");
+        updateCarStmt = connection.prepareStatement("UPDATE Car SET make=?, model=?, color=? WHERE id = ?");
     }
 
     @Override
-    public int addCar(Car car) {
-        int count = 0;
-        try {
-            addCarStmt.setString(1, car.getMake());
-            addCarStmt.setString(2, car.getModel());
-            addCarStmt.setString(3, car.getColor());
-            count = addCarStmt.executeUpdate();
-            ResultSet generatedKeys = addCarStmt.getGeneratedKeys();
-            if (generatedKeys.next()) {
-                car.setId(generatedKeys.getLong(1));
-            }
-        } catch (SQLException e) {
-            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
-        }
-        return count;
+    public int addCar(Car car) throws SQLException {
+        addCarStmt.setString(1, car.getMake());
+        addCarStmt.setString(2, car.getModel());
+        addCarStmt.setString(3, car.getColor());
+        int r = addCarStmt.executeUpdate();
+        return r;
     }
 
 
@@ -66,13 +45,15 @@ public class CarDaoJdbcImpl implements CarDao {
             getCarStmt.setLong(1, id);
             ResultSet rs = getCarStmt.executeQuery();
 
-            if (rs.next()) {
+            while (rs.next()) {
                 Car c = new Car();
-                c.setId(rs.getInt("id"));
+                c.setId(rs.getLong("id"));
                 c.setMake(rs.getString("make"));
                 c.setModel(rs.getString("model"));
                 c.setColor(rs.getString("color"));
-                return c;
+                if (c.getId() == id){
+                    return c;
+                }
             }
 
         } catch (SQLException e) {
@@ -81,26 +62,24 @@ public class CarDaoJdbcImpl implements CarDao {
         throw new SQLException("Car with id " + id + " doesn't exist");
     }
 
-
+    @Override
     public List<Car> getAllCars() {
-        List<Car> cars = new LinkedList<>();
         try {
-            ResultSet rs = getAllCarsStmt.executeQuery();
-
-            while (rs.next()) {
-                Car c = new Car();
-                c.setId(rs.getInt("id"));
-                c.setMake(rs.getString("make"));
-                c.setModel(rs.getString("model"));
-                c.setColor(rs.getString("color"));
-                cars.add(c);
+            List<Car> ret = new LinkedList<>();
+            ResultSet result = getAllCarsStmt.executeQuery();
+            while(result.next()) {
+                Car p = new Car();
+                p.setId(result.getLong("id"));
+                p.setMake(result.getString("make"));
+                p.setModel(result.getString("model"));
+                p.setColor(result.getString("color"));
+                ret.add(p);
             }
-
-        } catch (SQLException e) {
-            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+            return ret;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
         }
-        return cars;
-
     }
 
 
