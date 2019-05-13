@@ -1,4 +1,4 @@
-package TCars;
+package TCars.main;
 
 import static org.junit.Assert.assertTrue;
 
