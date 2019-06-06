@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TCars.api.ClientControllerMockMvcTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.071 s <<< FAILURE! - in TCars.api.ClientControllerMockMvcTest
+postNewPersonShouldReallyAddItToDatabase(TCars.api.ClientControllerMockMvcTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: 
+Response content
+Expected: a string containing "Nowislaw"
+     but: was "{"id":0,"firstName":"Bartłomej","secondName":"Dulik","registrationDate":null,"cars":[]}"
+	at TCars.api.ClientControllerMockMvcTest.postNewPersonShouldReallyAddItToDatabase(ClientControllerMockMvcTest.java:94)
+
+getAllClientsShouldReturnSomeResults(TCars.api.ClientControllerMockMvcTest)  Time elapsed: 0.046 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at TCars.api.ClientControllerMockMvcTest.getAllClientsShouldReturnSomeResults(ClientControllerMockMvcTest.java:77)
+

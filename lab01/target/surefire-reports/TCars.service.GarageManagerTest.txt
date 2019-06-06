@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TCars.service.GarageManagerTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.534 s <<< FAILURE! - in TCars.service.GarageManagerTest
+deleteCarBorrowedTest(TCars.service.GarageManagerTest)  Time elapsed: 0.121 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at TCars.service.GarageManagerTest.deleteCarBorrowedTest(GarageManagerTest.java:199)
+
+getCarByIdWithBorrowedCarsTest(TCars.service.GarageManagerTest)  Time elapsed: 0.125 s  <<< FAILURE!
+java.lang.AssertionError
+	at TCars.service.GarageManagerTest.getCarByIdWithBorrowedCarsTest(GarageManagerTest.java:130)
+

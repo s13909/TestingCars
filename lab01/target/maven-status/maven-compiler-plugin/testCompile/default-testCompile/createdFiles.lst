@@ -1,0 +1,3 @@
+TCars\main\AppTest.class
+TCars\api\CarControllerMockMvcTest.class
+TCars\api\ClientControllerMockMvcTest.class

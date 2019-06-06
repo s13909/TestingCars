@@ -46,7 +46,7 @@ public class Car
     }
 
     public void setId(Long id) {
-        id = id;
+        this.id = id;
     }
 
     public String getMake() {
@@ -79,6 +79,15 @@ public class Car
 
     public void setClient(Client client) {
         this.client = client;
+    }
+
+    public Car clone() {
+        Car c = new Car();
+        c.id = id;
+        c.make = make;
+        c.model = model;
+        c.color = color;
+        return c;
     }
 
     @Override

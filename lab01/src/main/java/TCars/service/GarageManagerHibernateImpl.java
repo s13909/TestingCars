@@ -25,10 +25,10 @@ public class GarageManagerHibernateImpl implements GarageManager {
     public Long addClient(Client client) {
         if (client.getId() != null) throw new IllegalArgumentException("Client ID should be null when adding to DB");
         sessionFactory.getCurrentSession().persist(client);
-        for (Car car : client.getCars()){
-            car.setClient(client);
-            sessionFactory.getCurrentSession().update(car);
-        }
+//        for (Car car : client.getCars()){
+//            car.setClient(client);
+//            sessionFactory.getCurrentSession().update(car);
+//        }
         sessionFactory.getCurrentSession().flush();
         return client.getId();
     }
@@ -51,7 +51,11 @@ public class GarageManagerHibernateImpl implements GarageManager {
 
     @Override
     public Long addCar(Car car) {
-        return (Long) sessionFactory.getCurrentSession().save(car);
+        if (car.getId() != null) throw new IllegalArgumentException("Car ID should be null when adding to DB");
+        sessionFactory.getCurrentSession().persist(car);
+        sessionFactory.getCurrentSession().flush();
+        return car.getId();
+
     }
 
     @Override
@@ -79,10 +83,6 @@ public class GarageManagerHibernateImpl implements GarageManager {
                 .list();
     }
 
-    @Override
-    public List<Car> findAvailableCars() {
-        return null;
-    }
 
     @Override
     public List<Car> findCarsByMake(String makeNameFragment) {

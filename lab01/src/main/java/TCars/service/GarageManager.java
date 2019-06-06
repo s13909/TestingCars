@@ -20,6 +20,5 @@ public interface GarageManager {
     void deleteCar(Car car);
     Car findCarById(Long id);
     List<Car> findAllCars();
-    List<Car> findAvailableCars();
     List<Car> findCarsByMake(String makeNameFragment);
 }

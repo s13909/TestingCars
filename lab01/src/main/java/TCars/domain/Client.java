@@ -70,6 +70,16 @@ public class Client {
         this.cars = cars;
     }
 
+    public Client clone() {
+        Client p = new Client();
+        p.cars = null;
+        p.id = id;
+        p.firstName = firstName;
+        p.secondName = secondName;
+        p.registrationDate = registrationDate;
+        return p;
+    }
+
 
 
 }
