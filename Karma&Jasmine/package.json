@@ -1,0 +1,23 @@
+{
+  "name": "testing_form_jasmine",
+  "version": "1.0.0",
+  "description": "Testing for TAU",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "karma-browserify": "^6.0.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "karma": "^4.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-verbose-reporter": "0.0.6",
+    "watchify": "^3.11.1"
+  }
+}
